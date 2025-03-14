@@ -1,0 +1,74 @@
+{
+    "demo": {
+        "fname": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "firstName"
+        },
+        "lname": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "lastName"
+        },
+        "email": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "userEmail"
+        },
+        "gender": {
+            "type": "standard",
+            "strategy": "css",
+            "value": ".custom-radio:nth-child(1) > .custom-control-label"
+        },
+        "mob": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "userNumber"
+        },
+        "DOB": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "dateOfBirthInput"
+        },
+        "hobby": {
+            "type": "standard",
+            "strategy": "css",
+            "value": "label[for='hobbies-checkbox-1'].custom-control-label"
+        },
+        "upload": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "uploadPicture"
+        },
+        "outside": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "stateCity-label"
+        },
+        "currentAddress": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "currentAddress"
+        },
+        "subject": {
+            "type": "standard",
+            "strategy": "css",
+            "value": ".subjects-auto-complete__value-container input"
+        },
+        "option": {
+            "type": "standard",
+            "strategy": "text",
+            "value": "Chemistry"
+        },
+        "submit": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "submit"
+        },
+        "modal": {
+            "type": "standard",
+            "strategy": "id",
+            "value": "example-modal-sizes-title-lg"
+        }
+    }
+}

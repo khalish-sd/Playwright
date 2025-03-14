@@ -1,0 +1,223 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration;perform-a-successful-registration",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Perform a Successful Registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 921514699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3980823300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter 'Test' in 'demo.fname'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96404800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter 'etst' in 'demo.lname'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44023300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter 'tes@mail.com' in 'demo.email'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51206299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter '5454545454' in 'demo.mob'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55030399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on 'demo.outside'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155214599
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "action",
+                      "locator",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "input",
+                      "demo.currentAddress",
+                      "01,somewhere,sometimes"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "click",
+                      "demo.hobby",
+                      ""
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "click",
+                      "demo.subject",
+                      ""
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "input",
+                      "demo.subject",
+                      "E"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "click",
+                      "demo.option",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter the following data:",
+            "match": {
+              "location": "src\\test\\steps\\tableSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671750799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I upload the file 'files/pic.jpg' to 'demo.upload'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106421599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on 'demo.submit'",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109411399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I observe that 'demo.modal' appears",
+            "match": {
+              "location": "src\\test\\steps\\basicSteps.ts:51"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30002328800,
+              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\SD544489\\source\\Usecase\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2723175099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke1",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration",
+    "tags": [],
+    "uri": "src\\test\\features\\registration.feature"
+  }
+]
